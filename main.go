@@ -12,7 +12,7 @@ func main() {
 
 	// Define a GET route to handle "/"
 	router.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Hello, World!")
+		c.String(http.StatusOK, "Hello, World! test pushsas")
 	})
 
 	// Run the server on port 8080
